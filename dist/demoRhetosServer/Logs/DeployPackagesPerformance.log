@@ -1,0 +1,46 @@
+2019-07-08 14:13:19.6332|TRACE|Performance|00:00:00.0110785 FileSyncer.UpdateDestination 0 destinations.
+2019-07-08 14:13:19.7976|TRACE|Performance|00:00:00.0017296 PackageDownloader.DeleteObsoletePackages
+2019-07-08 14:13:19.8239|TRACE|Performance|00:00:00.0046758 FileSyncer.UpdateDestination 2 destinations.
+2019-07-08 14:13:19.8239|TRACE|Performance|00:00:00.1105757 PackageDownloader.GetPackages.
+2019-07-08 14:13:20.8412|TRACE|Performance|00:00:00.0011680 MefPluginScanner: Listed assemblies (0).
+2019-07-08 14:13:20.9659|TRACE|Performance|00:00:00.1007624 MefPluginScanner: Loaded plugins (0).
+2019-07-08 14:13:21.7439|TRACE|Performance|00:00:01.1610592 DeployPackages.Program: Modules and plugins registered.
+2019-07-08 14:13:23.4042|TRACE|Performance|00:00:00.0134332 DslParser.CreateGenericParsers.
+2019-07-08 14:13:23.5845|TRACE|Performance|00:00:00.1702431 DslParser.ExtractConcepts (0 concepts).
+2019-07-08 14:13:23.5890|TRACE|Performance|00:00:00.0024298 DslParser.InitializeAlternativeInitializationConcepts (0 new concepts created).
+2019-07-08 14:13:23.6494|TRACE|Performance|00:00:00.0134380 DslModel.ExpandMacroConcepts initialization (0 evaluators, 1 parsed concepts resolved, 0 unresolved).
+2019-07-08 14:13:23.6494|TRACE|Performance|00:00:00.0000151 DslModel.ExpandMacroConcepts iteration 1 (0 new concepts, 0 left unresolved).
+2019-07-08 14:13:23.6777|TRACE|Performance|00:00:00.0415177 DslModel.ExpandMacroConcepts.
+2019-07-08 14:13:23.6777|TRACE|Performance|00:00:00.0318327 DslContainer.AddNewConceptsAndReplaceReferences total time.
+2019-07-08 14:13:23.6777|TRACE|Performance|00:00:00 DslContainer.ValidateNewConceptSameAsExisting total time.
+2019-07-08 14:13:23.6873|TRACE|Performance|00:00:00.0045801 DslModel.CheckSemantics
+2019-07-08 14:13:23.6873|TRACE|Performance|00:00:00.0046377 DslContainer.SortReferencesBeforeUsingConcept.
+2019-07-08 14:13:23.6873|TRACE|Performance|00:00:00.2961088 DslModel.Initialize (1 concepts).
+2019-07-08 14:13:23.6873|TRACE|Performance|00:00:00.0000907 DslModel.LogDslModel.
+2019-07-08 14:13:23.7199|TRACE|Performance|00:00:00.0181704 DslModelFile.Save.
+2019-07-08 14:13:23.7530|TRACE|Performance|00:00:00.0079725 CodeGenerator: Code generated.
+2019-07-08 14:13:23.8017|TRACE|Performance|00:00:00.0068891 CodeGenerator: Code generated.
+2019-07-08 14:13:23.8017|TRACE|Performance|00:00:00.0085800 EntityFrameworkMappingGenerator.GenerateMapping
+2019-07-08 14:13:24.0840|TRACE|Performance|00:00:00.0632471 DatabaseGenerator: Loaded old concept applications.
+2019-07-08 14:13:24.1087|TRACE|Performance|00:00:00.0213820 DatabaseGenerator.CreateNewApplications: Created concept applications from plugins.
+2019-07-08 14:13:24.1380|TRACE|Performance|00:00:00.0274288 DatabaseGenerator.CreateNewApplications: ExtractDependenciesFromConceptInfos executed.
+2019-07-08 14:13:24.1620|TRACE|Performance|00:00:00.0217671 DatabaseGenerator.CreateNewApplications: ExtractDependenciesFromMefPluginMetadata executed.
+2019-07-08 14:13:24.1681|TRACE|Performance|00:00:00.0094869 DatabaseGenerator.CreateNewApplications: Dependencies union executed.
+2019-07-08 14:13:24.1681|TRACE|Performance|00:00:00.0611095 DatabaseGenerator.CreateNewApplications: ExtractDependencies executed.
+2019-07-08 14:13:24.1681|TRACE|Performance|00:00:00.0078702 DatabaseGenerator.CreateNewApplications: UpdateConceptApplicationsFromDependencyList executed.
+2019-07-08 14:13:24.1681|TRACE|Performance|00:00:00.0705256 DatabaseGenerator.CreateNewApplications: Computed dependencies.
+2019-07-08 14:13:24.1929|TRACE|Performance|00:00:00.0137204 DatabaseGenerator.CreateNewApplications: Generated SQL queries for new concept applications.
+2019-07-08 14:13:24.1929|TRACE|Performance|00:00:00.1082774 DatabaseGenerator: Created new concept applications.
+2019-07-08 14:13:24.1929|TRACE|Performance|00:00:00.0005081 DatabaseGenerator: Verify new concept applications' integrity.
+2019-07-08 14:13:24.2182|TRACE|Performance|00:00:00.0276265 DatabaseGenerator: Removed unused concept applications.
+2019-07-08 14:13:24.2399|TRACE|Performance|00:00:00.0185984 DatabaseGenerator: Analyzed differences in database structure.
+2019-07-08 14:13:24.2559|TRACE|Performance|00:00:00.0147546 DatabaseGenerator.ApplyChangesToDatabase: Prepared SQL scripts for removing concept applications.
+2019-07-08 14:13:24.2559|TRACE|Performance|00:00:00.0023218 DatabaseGenerator.ApplyChangesToDatabase: Prepared SQL scripts for updating unchanged concept applications' metadata.
+2019-07-08 14:13:24.2711|TRACE|Performance|00:00:00.0131982 DatabaseGenerator.ApplyChangesToDatabase: Prepared SQL scripts for inserting concept applications.
+2019-07-08 14:13:24.2711|TRACE|Performance|00:00:00.0002487 DatabaseGenerator.ApplyChangesToDatabase: Executed 0 SQL scripts.
+2019-07-08 14:13:24.2711|TRACE|Performance|00:00:00.0321640 DatabaseGenerator: Applied changes to database.
+2019-07-08 14:13:24.2711|TRACE|Performance|00:00:00.0030993 DatabaseGenerator: Verified integrity of saved concept applications metadata.
+2019-07-08 14:13:24.2711|TRACE|Performance|00:00:00.2536406 DatabaseGenerator.UpdateDatabaseStructure
+2019-07-08 14:13:24.4494|TRACE|Performance|00:00:00.0008932 MefPluginScanner: Listed assemblies (0).
+2019-07-08 14:13:24.4794|TRACE|Performance|00:00:00.0162118 MefPluginScanner: Loaded plugins (0).
+2019-07-08 14:13:24.4794|TRACE|Performance|00:00:00.0277085 DeployPackages.Program: New modules and plugins registered.
