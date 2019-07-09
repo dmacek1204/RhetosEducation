@@ -1,0 +1,40 @@
+Module Reservation
+{
+    Entity RoomType
+    {
+        Shortstring Name;
+        Decimal Price;
+
+        Logging;
+    }
+
+    Entity Room
+    {
+        Shortstring Name;
+
+        Reference RoomType Reservation.RoomType;
+
+        Logging;
+    }
+
+    Entity Reservation
+    {
+        DateTime CheckIn;
+        DateTime CheckOut;
+
+        Reference Room Reservation.Room;
+        Reference Guest Reservation.Guest { Detail; }
+
+        Logging;
+    }
+
+    Entity Guest
+    {
+        Shortstring FirstName;
+        Shortstring LastName;
+        Shortstring Phone;
+        Shortstring Email;
+
+        Logging;
+    }
+}

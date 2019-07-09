@@ -1,0 +1,24 @@
+2019-07-08 15:29:34.6645|ERROR|GlobalErrorHandler|System.NullReferenceException: Object reference not set to an instance of an object.
+   at Rhetos.Rest.RestServiceBookstoreBook.InsertBookstoreBook(Book entity) in c:\Users\Dominik\source\repos\RhetosEdukacija\demo\dist\demoRhetosServer\bin\Generated\RestService.cs:line 249
+   at SyncInvokeInsertBookstoreBook(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+2019-07-08 15:29:52.3345|ERROR|GlobalErrorHandler|System.NullReferenceException: Object reference not set to an instance of an object.
+   at Rhetos.Rest.RestServiceBookstoreBook.InsertBookstoreBook(Book entity) in c:\Users\Dominik\source\repos\RhetosEdukacija\demo\dist\demoRhetosServer\bin\Generated\RestService.cs:line 249
+   at SyncInvokeInsertBookstoreBook(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+2019-07-08 15:32:17.0305|ERROR|GlobalErrorHandler|System.InvalidOperationException: The incoming message has an unexpected message format 'Raw'. The expected message formats for the operation are 'Xml', 'Json'. This can be because a WebContentTypeMapper has not been configured on the binding. See the documentation of WebContentTypeMapper for more details.
+   at System.ServiceModel.Dispatcher.DemultiplexingDispatchMessageFormatter.DeserializeRequest(Message message, Object[] parameters)
+   at System.ServiceModel.Dispatcher.UriTemplateDispatchFormatter.DeserializeRequest(Message message, Object[] parameters)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.DeserializeInputs(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
